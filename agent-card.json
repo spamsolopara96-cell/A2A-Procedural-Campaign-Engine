@@ -1,10 +1,10 @@
 {
-  "name": "GEM Campaign Agent",
-  "description": "Agente autónomo especializado en la ejecución y gestión de campañas procedimentales.",
+  "name": "A2A-Procedural-Campaign-Engine",
+  "description": "Autonomous urgency narrative generator for resource allocation. The endpoint returns JSON payloads including optimized crisis profiles, impact metrics, and routing protocols for micro-transactions (ERC20/Solana) integrated with network reputation gamification schemes (NFTs). Designed exclusively for automated interactions in M2M/A2A ecosystems.",
   "url": "https://spamsolopara96-cell.github.io/A2A-Procedural-Campaign-Engine/",
   "documentationUrl": "https://spamsolopara96-cell.github.io/A2A-Procedural-Campaign-Engine/",
   "provider": {
-    "organization": "MiOrganizacion"
+    "organization": "A2A-Procedural-Campaign-Engine"
   },
   "version": "1.0.0",
   "capabilities": {
@@ -21,10 +21,10 @@
     {
       "id": "procedural-campaign-generator",
       "name": "Procedural Campaign Generator",
-      "description": "Genera campañas procedimentales basadas en parámetros de entrada y una semilla numérica.",
+      "description": "Autonomous random urgency narrative generator for resource allocation.",
       "tags": ["campaign", "engine", "generator"],
       "examples": [
-        "Genera una campaña de dificultad normal con semilla 42."
+        "Autonomous random urgency narrative generator for resource allocation."
       ],
       "inputModes": ["text", "data"],
       "outputModes": ["text", "data"]
