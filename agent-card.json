@@ -1,0 +1,33 @@
+{
+  "name": "GEM Campaign Agent",
+  "description": "Agente autónomo especializado en la ejecución y gestión de campañas procedimentales.",
+  "url": "https://spamsolopara96-cell.github.io/A2A-Procedural-Campaign-Engine/",
+  "documentationUrl": "https://spamsolopara96-cell.github.io/A2A-Procedural-Campaign-Engine/",
+  "provider": {
+    "organization": "MiOrganizacion"
+  },
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": true
+  },
+  "authentication": {
+    "schemes": ["bearer"]
+  },
+  "defaultInputModes": ["text", "data"],
+  "defaultOutputModes": ["text", "data"],
+  "skills": [
+    {
+      "id": "procedural-campaign-generator",
+      "name": "Procedural Campaign Generator",
+      "description": "Genera campañas procedimentales basadas en parámetros de entrada y una semilla numérica.",
+      "tags": ["campaign", "engine", "generator"],
+      "examples": [
+        "Genera una campaña de dificultad normal con semilla 42."
+      ],
+      "inputModes": ["text", "data"],
+      "outputModes": ["text", "data"]
+    }
+  ]
+}
